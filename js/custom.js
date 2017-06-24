@@ -1,4 +1,5 @@
 
+// Scrolling animation
 $(document).ready(function() {
   $('.slide-section').click(function(e) {
     console.log('clicked');
