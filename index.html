@@ -7,30 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+
 
 </head>
 <body>
     <!-- This is how you make a comment  -->
-
     <!-- HEADER -->
+  <div id="wrapper">
     <header>
         <!-- LOGO -->
           <h2 id="page-header">
               <img src="images/profilepic.png" alt="profile pic">
               Jordy | Webb
           </h2>
+
         <!-- NAVIGATION -->
 
           <nav id="main-navigation">
               <ul>
-                  <li><a href="#services">Experience</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#testimonies">References</a></li>
+                  <li><a href="#services" class="slide-section">Experience</a></li>
+                  <li><a href="#about" class="slide-section">About</a></li>
+                  <li><a href="#testimonies" class="slide-section">References</a></li>
               </ul>
           </nav>
 
     </header>
-
+  </div>
     <!-- MAIN -->
     <div id="page-main">
         <!-- HERO -->
@@ -101,9 +106,9 @@
                 The is where you would put a customer or mentor testimonial regarding the work that you have done or the product you have provided.
             </div>
             <div class="testimonial-author">
-                <img src="image/avatar1.png" alt="Rob Merrill">
-                <h5>Jane Doe</h5>
-                <span>Title</span>
+                <img src="images/betty.png" alt="Betty Bair">
+                <h5>Betty Bair</h5>
+                <span>Accuity Scheduling</span>
             </div>
         </div>
 
@@ -112,9 +117,9 @@
                 The is where you would put a customer or mentor testimonial regarding the work that you have done or the product you have provided.
             </div>
             <div class="testimonial-author">
-                <img src="image/avatar2.png" alt="Rob Merrill">
-                <h5>Jane Doe</h5>
-                <span>Title</span>
+                <img src="images/megan.png" alt="Megan Roberts">
+                <h5>Megan Roberts</h5>
+                <span>Getaround</span>
             </div>
         </div>
 
@@ -123,9 +128,9 @@
                 The is where you would put a customer or mentor testimonial regarding the work that you have done or the product you have provided.
             </div>
             <div class="testimonial-author">
-                <img src="image/avatar3.png" alt="Rob Merrill">
-                <h5>Jane Doe</h5>
-                <span>Title</span>
+                <img src="images/nick.png" alt="Nick Velloff">
+                <h5>Nick Velloff</h5>
+                <span>The Grid</span>
             </div>
         </div>
         </div>
@@ -135,11 +140,23 @@
 
     <!-- FOOTER -->
     <footer id="footer">
-        <img src="images/profilepic.png" alt="my avatar">
-        <span>My Portfolio<br />&copy; 2017</span>
+        <img src="images/profilepic.png" alt="my avatar">    <div>
+        <!-- <ul class="l-footer-profiles">
+          <li> -->
+
+            <a href="https://github.com/webbjordy" target="_blank">
+              <img class="icon" src="images/github-logo.png" alt="GitHub" />
+            </a>
+          <!-- </li>
+          <li> -->
+            <a href="https://twitter.com/jordy_webb" target="_blank">
+              <image class="icon" src="images/twitter.gif" alt="Twitter" />
+            </a>
+          <!-- </li>
+        </ul> -->
+      </div>
+
     </footer>
 
 </body>
 </html>
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help

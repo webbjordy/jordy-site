@@ -21,7 +21,7 @@ header {
 /* logo nest inside header */
 
 header #page-header {
-    color: white;
+    color: #777;
     text-decoration: none;
     width: 35%;
     display: inline-block
@@ -35,7 +35,7 @@ header img {
 }
 
 header h2 {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 /* MAIN NAVIGATION */
@@ -56,9 +56,10 @@ header #main-navigation ul li {
 }
 
 header #main-navigation ul li a {
-    color: white;
+    color: #777;
     text-decoration: none;
     padding: 10px 15px;
+    font-size: 16px;
 }
 
 header #main-navigation ul li a:hover {
@@ -70,9 +71,9 @@ header #main-navigation ul li a:hover {
 /* footer*/
 
 footer   {
-  background: #222;
+  background: #e8b900;
   color: #777;
-  padding: 40px;
+  padding: 20px;
   text-align: center;
 }
 footer img   {
@@ -80,6 +81,24 @@ footer img   {
   border-radius: 5px;
   width: 80px;
   margin: 0 auto 10px;
+}
+
+.icon {
+display: inline-block;
+height: 25px;
+width: 25px;
+}
+
+.l-footer-profiles {
+/* display: -webkit-box; */
+    /* display: -webkit-flex; */
+    /*display: -ms-flexbox;*/
+    /*display: flex;
+    /* -webkit-box-pack: center; */
+    /* -webkit-justify-content: center; */
+    /*-ms-flex-pack: center;
+justify-content: center;
+    /*margin-bottom: 3rem;*/
 }
 
 /* MAIN CONTENT */
@@ -162,6 +181,12 @@ footer img   {
     background: #ECF0F1;
     width: 100%;
     padding: 50px 0;
+}
+
+.about p {
+  margin-left: 100px;
+  margin-right: 100px;
+
 }
 
 /* FEATURE BOXES */
